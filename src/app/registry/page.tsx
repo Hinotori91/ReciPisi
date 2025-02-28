@@ -1,6 +1,6 @@
 export default function Registry() {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-5 items-center bg-sky-950 rounded-3xl w-80 p-10">
       <div className="flex flex-col gap-2 items-center">
         <label htmlFor="username">Username</label>
         <input id="username" type="text" placeholder="username" />
