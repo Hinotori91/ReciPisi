@@ -1,10 +1,9 @@
-import Input from "../components/Input"
-
 export default function Registry() {
   return (
     <div className="flex flex-col gap-5">
       <div className="flex flex-col gap-2 items-center">
-        <Input forInput="username" labelText="Username" inputType="text" placeholder="username" />
+        <label htmlFor="username">Username</label>
+        <input id="username" type="text" placeholder="username" />
       </div>
       <div className="flex flex-col gap-2 items-center">
         <label htmlFor="firstname">Firstname</label>
