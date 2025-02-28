@@ -1,5 +1,19 @@
 import Image from "next/image";
 import Login from "./login/page"
+import CurrentLocation from "./components/CurrentLocation";
+import Registry from "./registry/page";
+
+
+function Location() {
+  const loc = <CurrentLocation />
+
+  if (loc.key == "/registry") {
+    return <Registry />
+  } else {
+    return <Login />
+  }
+  // return loc;
+}
 
 export default function Home() {
   return (
@@ -8,7 +22,9 @@ export default function Home() {
         <h1 className="text-3xl font-bold underline">Willkommen bei</h1>
         <Image src="/Logo/ChatGPT_Logo_Versuch.png" alt="ResiPisi" width={250} height={200} />
       </div>
-      <Login />
+      {/* <Login /> */}
+      {/* <CurrentLocation /> */}
+      <Location />
     </div>
   )
 }

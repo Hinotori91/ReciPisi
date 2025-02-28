@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import CurrentLocation from "./CurrentLocation";
 
 const Navbar = () => {
   return (
@@ -15,6 +16,7 @@ const Navbar = () => {
         <li>
           <Link href="/registry">Registry</Link>
         </li>
+        <li><CurrentLocation /></li>
       </ul>
     </nav>
   )
