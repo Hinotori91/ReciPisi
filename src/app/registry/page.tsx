@@ -1,5 +1,30 @@
-const Regesty = () => {
-  return <h1>Regestry</h1>
-}
+import Input from "../components/Input"
 
-export default Regesty;
+export default function Registry() {
+  return (
+    <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-2 items-center">
+        <Input forInput="username" labelText="Username" inputType="text" placeholder="username" />
+      </div>
+      <div className="flex flex-col gap-2 items-center">
+        <label htmlFor="firstname">Firstname</label>
+        <input id="firstname" type="text" placeholder="firstname" />
+      </div>
+      <div className="flex flex-col gap-2 items-center">
+        <label htmlFor="lastname">Lastname</label>
+        <input id="lastname" type="text" placeholder="lastname" />
+      </div>
+      <div className="flex flex-col gap-2 items-center">
+        <label htmlFor="mail">Mail</label>
+        <input id="mail" type="text" placeholder="mail" />
+      </div>
+      <div className="flex flex-col gap-2 items-center">
+        <label htmlFor="password">Password</label>
+        <input id="password" type="password" placeholder="password" />
+      </div>
+      <div className="flex justify-center">
+        <input type="submit" value="Send" className="text-center border-2 border-indigo-600 p-3 rounded-2xl w-72" />
+      </div>
+    </div>
+  )
+};
