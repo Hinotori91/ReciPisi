@@ -4,7 +4,13 @@ type InputLabelProps = {
 }
 
 const InputLabel = (props: InputLabelProps) => {
-	return <label htmlFor={props.forInput}>{props.labelText}</label>
+	return (
+		<label //
+			htmlFor={props.forInput}
+		>
+			{props.labelText}
+		</label>
+	)
 }
 
 export default InputLabel
