@@ -14,6 +14,7 @@
   - dropdown with ingredients and units
   - public/private switch
 - adding of ingredients (admin approval)
+- serving size scaling
 
 
 
@@ -31,6 +32,7 @@
 - socials
   - browsing of other users
   - public display of created recipes, favorites, most cooked recipes, comments, top cuisines, connected users
+  - privacy settings
   - counter on recipes how often this is cooked
     - also add "cooked at" button with datepicker on recipe to increment counter
   - connecting with other users
