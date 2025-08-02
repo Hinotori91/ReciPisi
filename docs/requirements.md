@@ -15,6 +15,11 @@
   - public/private switch
 - adding of ingredients (admin approval)
 - serving size scaling
+- cooking mode
+  - less interactivity
+  - highlighted ingredients, amounts, bigger spaces between sentences or new line for each
+  - bigger text
+  - highlighting of text on tap, maybe checkmark
 
 
 
@@ -37,3 +42,6 @@
     - also add "cooked at" button with datepicker on recipe to increment counter
   - connecting with other users
   - comments on recipes
+- references to other recipes
+  - inspired by
+  - (vegetarian) alternative to
