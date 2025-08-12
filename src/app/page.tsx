@@ -17,17 +17,13 @@ export default function Home() {
 	return (
 		<div className="flex gap-5 items-center justify-center min-h-screen">
 			<div className="flex flex-col">
-				<h1 className="text-3xl font-bold">Welcome at</h1>
 				<Image
-					src="/logo/ai-gen-logo.png"
+					src="/placeholder.png"
 					alt="ResiPisi"
-					width={250}
-					height={200}
+					width={500}
+					height={900}
 				/>
 			</div>
-			{/* <Login /> */}
-			{/* <CurrentLocation /> */}
-			<Location />
 		</div>
 	)
 }
