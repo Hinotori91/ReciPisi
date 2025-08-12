@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import Login from './login/page'
-import CurrentLocation from './components/CurrentLocation'
-import Registry from './registry/page'
+// import Login from './login/page'
+// import CurrentLocation from './components/CurrentLocation'
+// import Registry from './registry/page'
 
+/*
 function Location() {
 	const loc = <CurrentLocation />
 
@@ -12,6 +13,7 @@ function Location() {
 		return <Login />
 	}
 }
+*/
 
 export default function Home() {
 	return (

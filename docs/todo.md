@@ -14,6 +14,7 @@
 - [ ] add styling, create visual design
 - [ ] write access
 - [ ] user specific features, favoring
+- [ ] migrate from tailwindcss 3 to 4
 
 ## Research
 
