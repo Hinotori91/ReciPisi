@@ -25,8 +25,9 @@ Readonly<{
 }>) => {
 	return (
 		<html lang="de" className={inter.className}>
-			<body>
+			<body className="flex flex-col h-screen">
 				<Header />
+
 				{children}
 			</body>
 		</html>
