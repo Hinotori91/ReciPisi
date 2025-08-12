@@ -14,3 +14,7 @@
 - [ ] add styling, create visual design
 - [ ] write access
 - [ ] user specific features, favoring
+
+## Research
+
+- what does all the stuff in `src/app/fonts/inter/web/inter.css` do?

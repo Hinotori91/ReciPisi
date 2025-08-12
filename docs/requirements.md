@@ -21,8 +21,6 @@
   - bigger text
   - highlighting of text on tap, maybe checkmark
 
-
-
 ## Soft
 
 - dark/light theme
