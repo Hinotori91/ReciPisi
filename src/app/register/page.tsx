@@ -1,4 +1,4 @@
-export default function Registry() {
+const Registry = () => {
 	return (
 		<div className="flex flex-col gap-5 items-center bg-sky-950 rounded-3xl w-80 p-10">
 			<div className="flex flex-col gap-2 items-center">
@@ -31,3 +31,5 @@ export default function Registry() {
 		</div>
 	)
 }
+
+export default Registry

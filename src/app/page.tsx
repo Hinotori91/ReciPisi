@@ -1,27 +1,12 @@
 import Image from 'next/image'
-// import Login from './login/page'
-// import CurrentLocation from './components/CurrentLocation'
-// import Registry from './registry/page'
 
-/*
-function Location() {
-	const loc = <CurrentLocation />
-
-	if (loc.key == '/registry') {
-		return <Registry />
-	} else {
-		return <Login />
-	}
-}
-*/
-
-export default function Home() {
+const Home = () => {
 	return (
 		<div className="flex gap-5 items-center justify-center min-h-screen">
 			<div className="flex flex-col">
 				<Image
 					src="/placeholder.png"
-					alt="ResiPisi"
+					alt="Placeholder meme"
 					width={500}
 					height={900}
 				/>
@@ -29,3 +14,5 @@ export default function Home() {
 		</div>
 	)
 }
+
+export default Home

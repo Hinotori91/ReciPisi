@@ -37,13 +37,14 @@ const RegistryButton = () => {
 	)
 }
 
-export default function Login() {
+const Login = () => {
 	return (
 		<div className="flex flex-col gap-5 items-center bg-sky-950 rounded-3xl w-80 p-10">
-			{/* <Header /> */}
 			<LoginInput />
 			or
 			<RegistryButton />
 		</div>
 	)
 }
+
+export default Login

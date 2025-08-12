@@ -2,19 +2,20 @@
 
 import { useEffect } from 'react'
 
-export default function Error({
+const Error = ({
 	error,
 	reset,
-}: {
+}: //
+{
 	error: Error
 	reset: () => void
-}) {
+}) => {
 	useEffect(() => {
 		console.error('an error occured:', error)
 	}, [error])
 
 	return (
-		<div className="flex flex-col items-center justify-center h-screen bg-red-100">
+		<div className="flex flex-col items-center justify-center h-screen">
 			<h2 className="text-2xl font-bold text-red-600">
 				Hubsi! An error occured.
 			</h2>
@@ -28,3 +29,5 @@ export default function Error({
 		</div>
 	)
 }
+
+export default Error
