@@ -27,8 +27,7 @@ Readonly<{
 		<html lang="de" className={inter.className}>
 			<body className="flex flex-col h-screen">
 				<Header />
-
-				{children}
+				<div className="flex-1 border overflow-scroll">{children}</div>
 			</body>
 		</html>
 	)
