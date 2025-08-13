@@ -4,8 +4,8 @@ const Header = () => {
 	return (
 		<div className="flex justify-between px-8 py-2">
 			<div className="flex gap-4 items-center">
-				<Link href="/">
-					<span className="text-2xl font-extrabold mr-8">Recipisi</span>
+				<Link href="/" className="mr-8">
+					<span className="text-2xl font-extrabold">Recipisi</span>
 				</Link>
 				<Link href="/login">Login</Link>
 				<Link href="/register">Register</Link>
