@@ -17,12 +17,11 @@ const inter = localFont({
 	],
 })
 
-const RootLayout = ({
-	children,
-}: //
-Readonly<{
+type RootLayoutProps = Readonly<{
 	children: React.ReactNode
-}>) => {
+}>
+
+const RootLayout = ({ children }: RootLayoutProps) => {
 	return (
 		<html lang="de" className={inter.className}>
 			<body className="flex flex-col h-screen">

@@ -4,18 +4,18 @@ type LabeledInputProps = {
 	placeholder?: string
 }
 
-const LabeledInput = (p: LabeledInputProps) => {
+const LabeledInput = ({ label, type, placeholder }: LabeledInputProps) => {
 	return (
 		<>
 			<label //
-				htmlFor={`input-${p.placeholder}`}
+				htmlFor={`input-${placeholder}`}
 			>
-				{p.label}
+				{label}
 			</label>
 			<input //
-				id={`input-${p.placeholder}`}
-				type={p.type}
-				placeholder={p.placeholder ? p.placeholder : p.label}
+				id={`input-${placeholder}`}
+				type={type}
+				placeholder={placeholder ? placeholder : label}
 			/>
 		</>
 	)

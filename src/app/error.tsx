@@ -2,14 +2,11 @@
 
 import { useEffect } from 'react'
 
-const Error = ({
-	error,
-	reset,
-}: //
-{
+type ErrorProps = {
 	error: Error
 	reset: () => void
-}) => {
+}
+const Error = ({ error, reset }: ErrorProps) => {
 	useEffect(() => {
 		console.error('an error occured:', error)
 	}, [error])
