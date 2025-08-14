@@ -1,7 +1,7 @@
 type LabeledInputProps = {
 	label: string
-	type: string
-	placeholder: string
+	type?: string
+	placeholder?: string
 }
 
 const LabeledInput = (p: LabeledInputProps) => {
@@ -15,8 +15,10 @@ const LabeledInput = (p: LabeledInputProps) => {
 			<input //
 				id={`input-${p.placeholder}`}
 				type={p.type}
-				placeholder={p.placeholder}
+				placeholder={p.placeholder ? p.placeholder : p.label}
 			/>
 		</>
 	)
 }
+
+export default LabeledInput

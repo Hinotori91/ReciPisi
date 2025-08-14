@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Home = () => {
 	return (
 		<Image
-			className="m-auto mt-4"
+			className="m-auto"
 			src="/placeholder.png"
 			alt="Placeholder meme"
 			width={500}
