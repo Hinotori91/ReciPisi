@@ -1,6 +1,4 @@
-type RecipeProps = {}
-
-const Recipe = ({}: RecipeProps) => {
+const Recipe = () => {
 	return (
 		<ul>
 			<li>Step 1: Admire this page</li>
