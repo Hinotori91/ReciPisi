@@ -1,5 +1,11 @@
+import Search from './Search'
+
 const Browse = () => {
-	return <>Its-a me, browser! The princess is mine!</>
+	return (
+		<div className="flex gap-4">
+			<Search></Search>
+		</div>
+	)
 }
 
 export default Browse
