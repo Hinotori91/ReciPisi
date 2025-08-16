@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Header = () => {
 	return (
 		<div className="flex justify-between px-8 py-2">
-			<div className="flex gap-4 items-center">
+			<div className="flex gap-4 items-center overflow-scroll">
 				<Link href="/" className="mr-8">
 					<span className="text-2xl font-extrabold">Recipisi</span>
 				</Link>
