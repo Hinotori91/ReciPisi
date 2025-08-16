@@ -24,7 +24,7 @@ type RootLayoutProps = Readonly<{
 const RootLayout = ({ children }: RootLayoutProps) => {
 	return (
 		<html lang="de" className={inter.className}>
-			<body className="flex flex-col h-screen">
+			<body className="flex flex-col h-dvh">
 				<Header />
 				<div className="flex-1 border overflow-scroll">{children}</div>
 			</body>
