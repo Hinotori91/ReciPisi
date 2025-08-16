@@ -26,7 +26,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
 		<html lang="de" className={inter.className}>
 			<body className="flex flex-col h-dvh">
 				<Header />
-				<div className="flex-1 border overflow-scroll">{children}</div>
+				<div className="flex-1 border overflow-scroll p-2">{children}</div>
 			</body>
 		</html>
 	)
