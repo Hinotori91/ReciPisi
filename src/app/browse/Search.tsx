@@ -3,8 +3,6 @@ import Card from '@/components/Card'
 import LabeledInput from '@/components/LabeledInput'
 import SearchBar from '@/components/SearchBar'
 
-type SearchProps = {}
-
 const Search = () => {
 	return (
 		<Card className="flex flex-col gap-2 p-2">

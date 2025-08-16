@@ -1,5 +1,3 @@
-type ResultsProps = {}
-
 const Results = () => {
 	return <></>
 }

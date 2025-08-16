@@ -8,7 +8,7 @@ const Browse = () => {
 			<Search></Search>
 			<div className="border flex-1 h-full grid grid-cols-3 overflow-scroll">
 				{_.times(20, (i) => {
-					return <RecipeCard></RecipeCard>
+					return <RecipeCard title={`Recipe ${i}`}></RecipeCard>
 				})}
 			</div>
 		</div>
