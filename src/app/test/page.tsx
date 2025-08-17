@@ -5,12 +5,12 @@ const Test = () => {
 	const create = async (formData: FormData) => {
 		'use server'
 
-		// Connect to the Neon database
-		const sql = neon(`${process.env.DATABASE_URL}`)
-		const comment = formData.get('comment')
-
-		// Insert the comment from the form into the Postgres database
-		await sql`INSERT INTO comments (comment) VALUES (${comment})`
+		// // Connect to the Neon database
+		// const sql = neon(`${process.env.DATABASE_URL}`)
+		// const comment = formData.get('comment')
+		//
+		// // Insert the comment from the form into the Postgres database
+		// await sql`INSERT INTO comments (comment) VALUES (${comment})`
 	}
 
 	return (
