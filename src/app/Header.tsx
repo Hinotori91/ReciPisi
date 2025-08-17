@@ -7,8 +7,6 @@ const Header = () => {
 				<Link href="/" className="mr-8">
 					<span className="text-2xl font-extrabold">Recipisi</span>
 				</Link>
-				<Link href="/login">Login</Link>
-				<Link href="/register">Register</Link>
 				<Link href="/browse">Browse</Link>
 				<Link href="/recipe">Recipe</Link>
 				<Link href="/mealplan">Meal Plan</Link>
@@ -16,7 +14,9 @@ const Header = () => {
 					Test
 				</Link>
 			</div>
-			<div className="flex items-center">User Box coming soon™</div>
+			<div className="flex items-center">
+				<Link href="/login">Login</Link>
+			</div>
 		</div>
 	)
 }
