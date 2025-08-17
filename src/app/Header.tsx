@@ -12,6 +12,9 @@ const Header = () => {
 				<Link href="/browse">Browse</Link>
 				<Link href="/recipe">Recipe</Link>
 				<Link href="/mealplan">Meal Plan</Link>
+				<Link href="/test" className="ml-4 text-gray-500">
+					Test
+				</Link>
 			</div>
 			<div className="flex items-center">User Box coming soon™</div>
 		</div>
