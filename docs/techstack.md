@@ -10,6 +10,8 @@ React & Next.js
 
 ## i18n
 
+[i18next](https://www.i18next.com/)
+
 ## Auth
 
 [auth.js](https://authjs.dev/getting-started)

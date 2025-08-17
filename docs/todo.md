@@ -3,7 +3,7 @@
 - [x] setup repo and nextjs application
 - [x] define requirements
 - [ ] wireframes based on requirements
-- [ ] define tech stack, answer last open questions
+- [x] define tech stack, answer last open questions
   - [ ] i18n
   - [x] auth
   - [x] data base connection?
