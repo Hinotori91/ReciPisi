@@ -7,7 +7,6 @@ const Search = () => {
 		<Card>
 			<div className="card-body">
 				<SearchBar placeholder="Search for recipes..." />
-
 				<LabeledInput label="Ingredients" />
 				<LabeledInput label="Excluding..." />
 				<LabeledInput label="Max. Calories" type="number" />

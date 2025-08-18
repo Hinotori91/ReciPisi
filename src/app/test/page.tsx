@@ -1,8 +1,8 @@
 import Card from '@/components/Card'
-import { neon } from '@neondatabase/serverless'
+// import { neon } from '@neondatabase/serverless'
 
 const Test = () => {
-	const create = async (formData: FormData) => {
+	const create = async (/*formData: FormData*/) => {
 		'use server'
 
 		// // Connect to the Neon database

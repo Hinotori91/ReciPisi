@@ -1,27 +1,27 @@
-type Unit = 'kg' | 'l' | 'pcs'
+export type Unit = 'kg' | 'l' | 'pcs'
 
-type NutritionUnit = 'kJ' | 'kcal' | 'g'
+export type NutritionUnit = 'kJ' | 'kcal' | 'g'
 
-type Allergen = {
+export type Allergen = {
 	id: string
 	displayName: string
 	letter: string
 }
 
-type Ingredient = {
+export type Ingredient = {
 	id: string
 	displayName: string
 	unit: Unit
 }
 
-type Nutrition = {
+export type Nutrition = {
 	id: string
 	displayName: string
 	amount: number
 	unit: NutritionUnit
 }
 
-type RecipeOverview = {
+export type RecipeOverview = {
 	id: string
 	title: string
 	totalTime: number
@@ -29,7 +29,7 @@ type RecipeOverview = {
 	isFavourite: boolean
 }
 
-type Recipe = RecipeOverview & {
+export type Recipe = RecipeOverview & {
 	allergens: Allergen[]
 	nutritions: Nutrition[]
 	ingredients: Ingredient[]
