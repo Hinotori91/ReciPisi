@@ -3,7 +3,7 @@ type SearchBarProps = {
 }
 
 const SearchBar = ({ placeholder = 'Search...' }: SearchBarProps) => {
-	return <input type="search" placeholder={placeholder} />
+	return <input className="input" type="search" placeholder={placeholder} />
 }
 
 export default SearchBar

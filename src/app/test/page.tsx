@@ -15,9 +15,16 @@ const Test = () => {
 
 	return (
 		<Card>
-			<form action={create}>
-				<input type="text" placeholder="write a comment" name="comment" />
-				<button type="submit">Submit</button>
+			<form className="card-body" action={create}>
+				<input
+					type="text"
+					className="input"
+					placeholder="write a comment"
+					name="comment"
+				/>
+				<button className="btn btn-primary" type="submit">
+					Submit
+				</button>
 			</form>
 		</Card>
 	)

@@ -6,18 +6,15 @@ type LabeledInputProps = {
 
 const LabeledInput = ({ label, type, placeholder }: LabeledInputProps) => {
 	return (
-		<>
-			<label //
-				htmlFor={`input-${placeholder}`}
-			>
-				{label}
-			</label>
+		<label className="floating-label">
+			<span>{label}</span>
 			<input //
 				id={`input-${placeholder}`}
 				type={type}
 				placeholder={placeholder ? placeholder : label}
+				className="input"
 			/>
-		</>
+		</label>
 	)
 }
 
