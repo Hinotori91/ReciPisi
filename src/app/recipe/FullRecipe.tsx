@@ -1,4 +1,3 @@
-import Card from '@/components/Card'
 import { Recipe } from '@/types/types'
 
 type FullRecipeProps = {
@@ -17,14 +16,13 @@ const FullRecipe = ({ recipe }: FullRecipeProps) => {
 			<div className="flex gap-2 w-full">
 				{/* Left side */}
 				<div className="flex flex-1 flex-col gap-2 border-red-800 border">
-					<img />
 					<div>kochzeit&nutritions</div>
 					<div>Ingredients</div>
 				</div>
 				{/* Right side */}
 				<div className="flex flex-1 flex-col gap-2 border border-blue-800">
 					{recipe.steps.map((step, i) => (
-						<div>
+						<div key={i}>
 							<h3 className="text-lg">{`Step ${i + 1}`}</h3>
 							<div>{step}</div>
 						</div>
