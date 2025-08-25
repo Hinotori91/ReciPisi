@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const Home = () => {
 	return (
 		<article className="m-auto w-lg">
@@ -11,10 +9,10 @@ const Home = () => {
 			</p>
 			<p className="indent-[1rem] mt-1">
 				Have you ever looked into your fridge, seen 5 - 7 things that have to be
-				used soon but you don't feel like cooking the same veggie-rice pan every
-				time to get rid of them? Or you are uninspired for the upcoming week,
-				want to eat healthy and would like to have a list of recipes with a
-				grocery list to go shop based on what is still in the house?
+				used soon but you don&apos;t feel like cooking the same veggie-rice pan
+				every time to get rid of them? Or you are uninspired for the upcoming
+				week, want to eat healthy and would like to have a list of recipes with
+				a grocery list to go shop based on what is still in the house?
 			</p>
 			<p className="indent-[1rem] mt-1">
 				This project aims to provide this tooling. Also, it is supposed to be a
