@@ -11,7 +11,7 @@
   - [x] icon library
 - [ ] build empty, mocked shell based on wireframes
 - [ ] add data to database, create database connection for read access, simple CRUD
-- [ ] add styling, create visual design, decide on icon set from iconify
+- [ ] add styling, responsiveness, create visual design, decide on icon set from iconify
 - [ ] write access
 - [ ] user specific features, favoring
 - [ ] migrate from tailwindcss 3 to 4
