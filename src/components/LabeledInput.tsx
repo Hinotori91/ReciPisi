@@ -4,10 +4,17 @@ type LabeledInputProps = {
 	label: string
 	type?: string
 	placeholder?: string
+	value?: string | number
 	onChange?: ChangeEventHandler<HTMLInputElement>
 }
 
-const LabeledInput = ({ label, type, placeholder }: LabeledInputProps) => {
+const LabeledInput = ({
+	label,
+	type,
+	placeholder,
+	value,
+	onChange,
+}: LabeledInputProps) => {
 	return (
 		<label className="floating-label">
 			<span>{label}</span>
@@ -16,6 +23,8 @@ const LabeledInput = ({ label, type, placeholder }: LabeledInputProps) => {
 				type={type}
 				placeholder={placeholder ? placeholder : label}
 				className="input"
+				value={value}
+				onChange={onChange}
 			/>
 		</label>
 	)
