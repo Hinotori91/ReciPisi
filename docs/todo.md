@@ -2,6 +2,11 @@
 
 - [x] setup repo and nextjs application
 - [x] define requirements
+
+## Phase 1
+
+Phase 1 is basically everything but the meal plan feature
+
 - [ ] wireframes based on requirements
 - [x] define tech stack, answer last open questions
   - [ ] i18n
@@ -14,7 +19,12 @@
 - [ ] add styling, responsiveness, create visual design, decide on icon set from iconify
 - [ ] write access
 - [ ] user specific features, favoring
-- [ ] migrate from tailwindcss 3 to 4
+- [x] migrate from tailwindcss 3 to 4
+
+## Phase 2
+
+- [ ] wireframes for meal plan based on requirements
+- [ ] build empty, mocked shell based on wireframes
 
 ## Research
 
